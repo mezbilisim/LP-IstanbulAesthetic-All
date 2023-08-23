@@ -7,7 +7,10 @@ use App\Http\Controllers\GynecomastiaController;
 use App\Http\Controllers\MM2Controller;
 use App\Http\Controllers\TummyTuckController;
 use App\Http\Controllers\FaceliftController;
+use App\Http\Controllers\HairTransplantController;
 use Illuminate\Support\Facades\Route;
+
+
 
 /*
 |--------------------------------------------------------------------------
@@ -31,6 +34,12 @@ Route::group(['prefix' => '{locale}'], function () {
     Route::group(['prefix' => 'liposuction', 'as' => 'liposuction'], function () {
         Route::get('/', [LiposuctionController::class, 'home'])->name('.home');
         Route::get('/gallery', [LiposuctionController::class, 'gallery'])->name('.gallery');
+    });
+
+    ## Hair Transplant LP
+    Route::group(['prefix' => 'hair-transplant', 'as' => 'hair-transplant'], function () {
+        Route::get('/', [HairTransplantController::class, 'home'])->name('.home');
+        Route::get('/gallery', [HairTransplantController::class, 'gallery'])->name('.gallery');
     });
 
     ## Mommy Makeover LP

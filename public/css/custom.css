@@ -3,6 +3,225 @@ html #header.header-transparent .header-body:not(.header-border-bottom) {
     background: white !important;
     box-shadow: 0px -2px 15px #00000099 !important;
 }
+
+
+/* process  Cont */
+
+.process-container .analysis-header h2 {
+    text-align: left;
+    font-weight: 700!important;
+    color: #000;
+}
+
+.process-container .progress.progress-sm {
+    height: 4px;
+    margin-top: -5px;
+}
+
+
+
+.process-container strong.text-dark.text-2, .process-container strong.text-dark {
+    font-weight: 400;
+}
+.process-container h4 {
+    text-align: left!important;
+    font-size: 1.1em;
+    letter-spacing: -0.6px;
+    font-weight: 400!important;
+}
+
+.process-container .card-background-image-hover {
+    box-shadow: var(--mez-quaternary-light-shadow);
+    border: var(--mez-secondary-border)!important;
+    border-radius: var(--mez-secondary-radius);
+    margin: 0px 30px;
+
+}
+
+.process-container .card-body.p-3 {
+    background: none!important;
+}
+
+.process-container .gender-box {
+    float: left;
+    width: 100%;
+    padding: 3px 8px;
+    border-radius: var(--mez-secondary-radius);
+    border: var(--mez-secondary-border)!important;
+    box-shadow: var(--mez-quaternary-shadow);
+}
+
+
+.process-container .gender-box img{
+    height: 60px;
+}
+
+.gender-box.align-items-center {
+    cursor: pointer;
+}
+
+.gender-box:hover    {
+    box-shadow:   var(--mez-quaternary-dark-shadow);
+}
+
+.process-container input#calc-age {
+    background: #efefef;
+    height: 4px;
+}
+
+.process-container label#calc-age_value {
+    margin-right: 10px;
+    font-size: 14px!important;
+    position: relative;
+    width: 75px!important;
+    display: block;
+}
+
+.process-container .calculator {
+    border: var(--mez-secondary-light-border);
+    display: flex;
+    align-items: center;
+    padding: 3px 16px;
+    margin-bottom: 15px;
+}
+
+.analysis-footer.text-right {
+    border-top: var(--mez-secondary-light-border);
+    margin-top: -40px;
+    padding-top: 20px;
+}
+.process-container    #bmr-calculator {
+    margin-bottom: 20px;
+}
+
+.process-container .row.process-model {
+    text-align: center;
+}
+
+.process-container .row.process-model .img-fluid {
+    border: 1px solid white;
+    padding: 15px;
+    height: 95px;
+    width: 100%;
+    object-fit: contain;
+    background: white;
+    box-shadow: var(--mez-quaternary-light-shadow);
+}
+
+/* Teeth Cont */
+.teeth-container .analysis-header h2 {
+    text-align: left;
+    font-weight: 700!important;
+    color: var(--mez-primary);
+}
+.teeth-container .progress.progress-sm {
+    height: 4px;
+    margin-top: -5px;
+}
+.teeth-container strong.text-dark.text-2, .teeth-container strong.text-dark {
+    font-weight: 400;
+    text-align: center;
+}
+
+div#bmr-calculator div {
+    display: flex;
+}
+div#bmr-calculator label {
+    color: black;
+}
+
+.teeth-container h4 {
+    text-align: left!important;
+    font-size: 1.1em;
+    letter-spacing: -0.6px;
+    font-weight: 400!important;
+}
+.teeth-container .card-background-image-hover {
+    box-shadow: var(--mez-quaternary-light-shadow);
+    border: var(--mez-secondary-border)!important;
+    border-radius: var(--mez-secondary-radius);
+    margin: 0px 30px;
+}
+.teeth-container .card-body.p-3 {
+    background: none!important;
+}
+.teeth-container .gender-box {
+    float: left;
+    width: 100%;
+    padding: 3px 8px;
+    border-radius: var(--mez-secondary-radius);
+    border: var(--mez-secondary-border)!important;
+    box-shadow: var(--mez-quaternary-shadow);
+}
+.teeth-container .gender-box img{
+    height: 60px;
+}
+.gender-box.align-items-center {
+    cursor: pointer;
+}
+.gender-box:hover    {
+    box-shadow:   var(--mez-quaternary-dark-shadow);
+}
+.teeth-container input#calc-age {
+    background: #efefef;
+    height: 4px;
+}
+.teeth-container label#calc-age_value {
+    margin-right: 10px;
+    font-size: 14px!important;
+    position: relative;
+    width: 75px!important;
+    display: block;
+}
+.teeth-container .calculator {
+    border: var(--mez-secondary-light-border);
+    display: flex;
+    align-items: center;
+    padding: 3px 16px;
+    margin-bottom: 15px;
+}
+.analysis-footer.text-right {
+    border-top: var(--mez-secondary-light-border);
+    margin-top: -40px;
+    padding-top: 20px;
+}
+.teeth-container    #bmr-calculator {
+    margin-bottom: 20px;
+}
+.teeth-container .row.dental-models {
+    text-align: center;
+}
+.teeth-container .row.dental-models .img-fluid {
+    border: 1px solid white;
+    height: 45px;
+    object-fit: cover;
+    background: white;
+    box-shadow: var(--mez-quaternary-light-shadow);
+}
+.analysis-active {
+    box-shadow: 0 0 9px #0a9f47!important; }
+.treatment-time a.treatment-btn {
+    width: 100%;
+    margin: 0!important;
+    padding: 15px;
+    border-radius: var(--mez-secondary-radius);
+    border: var(--mez-secondary-border)!important;
+    box-shadow: var(--mez-quaternary-shadow);
+}
+.need-help.info-box {
+    border-radius: 10px;
+    box-shadow: 0 0 13px #0000005c;
+    background: white;
+    z-index: 9999;
+    position: fixed;
+    padding: 20px;
+    width: auto;
+    max-width: 400px;
+    margin-left: 15px;
+    top: 120px;
+    right: 15px;
+}
+
 section#section-concept {
     margin-top: -105px!important;
 }
@@ -43,14 +262,24 @@ ul.nav.nav-pills li.nav-item {
 }
 #header .header-logo img {
     height: 70px;
-    filter:invert(1);
+
 }
 .header-container.container {
     height: 100px !important;
 }
-
+.logo-preview h4 {
+    top: 7px!important;
+    display: block;
+    position: relative;
+}
 /* Add here all your CSS customizations */
 @media only screen and (max-width: 769px) {
+
+    .card.card-background-image-hover.border-0 {
+        margin: 0!important;
+    }
+
+
     body {
         padding-top: 105px;
     }

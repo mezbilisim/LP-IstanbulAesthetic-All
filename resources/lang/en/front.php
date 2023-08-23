@@ -117,4 +117,40 @@ return [
         'userinf' => ' The award you have won has been sent to us with your contact information. We will get back to you as soon as possible.',
     ],
 
+    'hairType' => [
+        'men' => [
+            'type1' => 'Norwood-Typ 1',
+            'type2' => 'Norwood-Typ 2',
+            'type3' => 'Norwood-Typ 3',
+            'type4' => 'Norwood-Typ 4',
+            'type5' => 'Norwood-Typ 5',
+            'type6' => 'Norwood-Typ 6',
+            'type7' => 'Norwood-Typ 7',
+        ],
+        'women' => [
+            'type1' => 'Step 1',
+            'type2' => 'Step 2',
+            'type3' => 'Step 3',
+            'type4' => 'Step 4',
+            'type5' => 'Frontal',
+            'type6' => 'Progressive',
+        ]
+    ],
+
+    'hairAnalysis' => [
+        'title' => 'Free Hair Analysis',
+        'head1' => '1. Choose your gender',
+        'head2' => '2. How would you describe your hair loss?',
+        'head3' => '3. Upload your hair pictures.',
+        'head4' => '4. When would you like to be treated?',
+        'head5' => '5. To whom should we send the free hair analysis?',
+
+        'treatment' => [
+            'time1' => 'As soon as possible',
+            'time2' => 'In the next 3 months',
+            'time3' => 'In the next 12 months',
+            'time4' => 'I just want to get information',
+        ]
+    ],
+
 ];
