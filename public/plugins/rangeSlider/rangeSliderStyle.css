@@ -1,0 +1,62 @@
+/* The crazy stuff that needs to be here for the custom input styling */
+input[type="range"] {
+    -webkit-appearance: none;
+    margin: 18px 0;
+    width: 100%;
+    transition: all 0.265ms ease-out;
+}
+
+input[type="range"]:not(:last-of-type) {
+    margin-top: 0;
+    margin-bottom: 2.5em;
+}
+
+input[type="range"]:focus {
+    outline: none;
+}
+
+input[type="range"]::-webkit-slider-runnable-track {
+    width: 100%;
+    height: 6px;
+    cursor: pointer;
+    background: var(--rs-line-color);
+}
+
+input[type="range"]::-webkit-slider-thumb {
+    box-shadow: 0 0 8px 1px var(--mez-secondary), 0 0 16px 4px #fff;
+    border: 3px solid #fff;
+    height: 24px;
+    width: 24px;
+    border-radius: 50%;
+    background: var(--mez-secondary);
+    cursor: pointer;
+    -webkit-appearance: none;
+    margin-top: -8px;
+}
+input[type="range"]:focus::-webkit-slider-runnable-track {
+    background: #d8415c;
+}
+
+input[type="radio"] {
+    -webkit-appearance: none;
+    display: none;
+}
+
+input[type=range]::-moz-range-track {
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    background: #ededef;
+}
+
+input[type=range]::-moz-range-thumb {
+    box-shadow: 0 0 8px 1px #d8415c, 0 0 16px 4px #fff;
+    border: 3px solid #fff;
+    height: 24px;
+    width: 24px;
+    border-radius: 50%;
+    background: #d8415c;
+    cursor: pointer;
+    -webkit-appearance: none;
+    margin-top: -8px;
+}

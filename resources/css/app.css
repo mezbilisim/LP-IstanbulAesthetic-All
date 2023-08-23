@@ -1,0 +1,5 @@
+
+mix.styles([
+'public/css/vendor/boostrap.css',
+'public/css/vendor/custom.css'
+], 'public/css/app.css');

@@ -1,0 +1,27 @@
+
+:root {
+    /* color */
+    --mez-primary: #e8c100;
+    --mez-primary-light: #e1b900;
+    --mez-primary-dark: #f6cb0d;
+    --mez-secondary: #000;
+    --mez-secondary-dark: #0d0c0c;
+
+
+    /* border */
+    --mez-primary-border: 1px solid #000;
+    --mez-secondary-border: 1px solid #0000002b;
+    --mez-secondary-light-border: 1px solid #000;
+
+    /* shadow */
+    --mez-primary-shadow: 0px 0px 13px #00000075;
+    --mez-seconary-shadow: 0px 0px 10px #00000038;
+    --mez-tertiary-shadow: 0px 0px 8px #0000001a;
+    --mez-quaternary-shadow: 0px 0px 9px #00000014, inset 0px 0px 9px #0000000a;
+    --mez-quaternary-light-shadow: 0px 0px 10px #0000002e, inset 0px 0px 19px #0000000f;
+    --mez-quaternary-dark-shadow: 0px 0px 9px #0000002e, inset 0px 0px 9px #0000000a;;
+
+    /* border radius */
+    --mez-primary-radius: 3px;
+    --mez-secondary-radius: 5px;
+}
