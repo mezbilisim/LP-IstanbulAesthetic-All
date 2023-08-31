@@ -238,6 +238,9 @@ section#section-concept {
 body {
     padding-top: 155px;
 }
+.safari body {
+    padding-top: 140px!important;
+}
 header#header {
     top: 0;
 }
