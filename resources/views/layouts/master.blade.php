@@ -97,7 +97,6 @@
         <img src="{{ asset('img/global/WhatsApp.svg.webp') }}" class="gtm-whatsapp">
     </a>
 </div>
-<div id="floating-whatsapp"></div>
 
 <div class="mobile-footer-bar mobile-footer-bar-open gtm-whatsapp fb-whatsapp" >
     <a href="javascript:void(0)" class="gtm-whatsapp fb-whatsapp fb-btn">
