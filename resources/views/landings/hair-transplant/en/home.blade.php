@@ -177,7 +177,6 @@
                 </div>
                 <div class="col-4">
                     <ul>
-                        <li>✨ Garments (And BBL pillow for the BBL Patients)</li>
                         <li>✨ Anesthesia Consultation</li>
                         <li>✨ Check-ups (At least twice)</li>
                         <li>✨ Translator Support at the hotel and hospital</li>
@@ -449,7 +448,7 @@
         </div>
     </section>
 
-    
+
 
     <!-- Horizontal Form -->
     <section class="section horizontal-form section-text-light section-background mt-0 mb-0"
