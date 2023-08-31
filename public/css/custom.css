@@ -6,7 +6,17 @@ html #header.header-transparent .header-body:not(.header-border-bottom) {
 
 
 /* process  Cont */
+.doc-img img {
+    width: -webkit-fill-available;
+    height: 250px;
+    margin-bottom: 15px;
+    object-fit: contain;
+    margin-top: 15px;
+}
 
+.doc-img img {
+    width: -webkit-fill-available;
+}
 .process-container .analysis-header h2 {
     text-align: left;
     font-weight: 700!important;
@@ -274,6 +284,10 @@ ul.nav.nav-pills li.nav-item {
 }
 /* Add here all your CSS customizations */
 @media only screen and (max-width: 769px) {
+    .dmg2.col-lg-2 {
+        width: 50%;
+    }
+
 
     .card.card-background-image-hover.border-0 {
         margin: 0!important;

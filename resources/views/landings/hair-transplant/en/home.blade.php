@@ -427,6 +427,30 @@
         </div>
     </section>
 
+    <!-- Document -->
+    <section class="section section-dark section-background mt-0 mb-0"
+    >
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-12">
+                    <h2 style="text-align: center;" class="text-10">Our Documents</h2>
+                    <div class="doc-img row">
+                        <div class="dmg1 col-lg-4"> <img src="{{asset('img/global/documents/1.jpg')}}" alt=""></div>
+                        <div class="dmg1 col-lg-4"> <img src="{{asset('img/global/documents/2.jpg')}}" alt=""></div>
+                        <div class="dmg1 col-lg-4"> <img src="{{asset('img/global/documents/3.jpg')}}" alt=""></div>
+                        <div class="dmg1 col-lg-4"> <img src="{{asset('img/global/documents/7.jpg')}}" alt=""></div>
+                        <div class="dmg1 col-lg-4"> <img src="{{asset('img/global/documents/4.jpg')}}" alt=""></div>
+                        <div class="dmg2 col-lg-2"> <img src="{{asset('img/global/documents/5.jpg')}}" alt=""></div>
+                        <div class="dmg2 col-lg-2   "> <img src="{{asset('img/global/documents/6.jpg')}}" alt=""></div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+
     <!-- Horizontal Form -->
     <section class="section horizontal-form section-text-light section-background mt-0 mb-0"
              style="background-image: url({{ asset('img/landing/' . $data['landing_slug'] . '/header_bg.jpg') }});background-size: cover;background-position: 40% 58%!important;">
