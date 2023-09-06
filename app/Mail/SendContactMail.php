@@ -35,7 +35,7 @@ class SendContactMail extends Mailable
         }
 
         ## API ile CRM'e Kaydı Yapılıyor
-        if(config('app.env') == 'local') {
+        if(config('app.env') != 'local') {
             $response = Http::withToken($this->details['api_information']['token'] ?? null)
                 ->accept('application/json')
                 ->post($this->details['api_information']['url'], [
