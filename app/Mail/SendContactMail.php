@@ -27,25 +27,26 @@ class SendContactMail extends Mailable
         foreach ($this->details['data'] as $key => $value) {
             if (!in_array($key, ['name', 'phone', 'email', 'file_urls'])) {
                 if (is_array($value)) {
-                    $other_details .= '<strong>' . $key . ': </strong>' . implode(', ', $value) . '</br>';
+                    $other_details[$key] = implode(', ', $value);
                 } else {
-                    $other_details .= '<strong>' . $key . ': </strong>' . $value . '</br>';
+                    $other_details[$key] = $value;
                 }
             }
         }
 
         ## API ile CRM'e Kaydı Yapılıyor
-        $response = Http::withToken($this->details['api_information']['token'] ?? null)
-            ->accept('application/json')
-            ->post($this->details['api_information']['url'], [
-                'landing_id'    => $this->details['api_information']['landing_id'],
-                'name'          => $this->details['data']['name'] ?? null,
-                'phone'         => $this->details['data']['phone'] ?? null,
-                'email'         => $this->details['data']['email'] ?? null,
-                'communication' => $this->details['data']['communication'] ?? '',
-                'other_details' => $other_details,
-            ])
-            ->json();
+        if(config('app.env') == 'local') {
+            $response = Http::withToken($this->details['api_information']['token'] ?? null)
+                ->accept('application/json')
+                ->post($this->details['api_information']['url'], [
+                    'landing_id'    => $this->details['api_information']['landing_id'],
+                    'name'          => $this->details['data']['name'] ?? null,
+                    'phone'         => $this->details['data']['phone'] ?? null,
+                    'email'         => $this->details['data']['email'] ?? null,
+                    'other_details' => $other_details,
+                ])
+                ->json();
+        }
 
         ## Mail Dosyası Oluşturuluyor
         return $this->view('emails.contact-form')
