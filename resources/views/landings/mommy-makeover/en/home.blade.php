@@ -51,52 +51,11 @@
                             WhatsApp or by filling out the consultation form free.
                         </p>
 
-                        <div class="row align-items-center justify-content-between">
-                            <div class="col-lg-6">
-                                <div class="feature-box">
-                                    <div class="box-icon">
-                                        <i class="fas fa-clock"></i>
-                                    </div>
-                                    <div class="feature-box-info">
-                                        <h4 class="mb-2">Operation Time</h4>
-                                        <p class="mb-4">2 - 6 hour</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-6">
-                                <div class="feature-box">
-                                    <div class="box-icon">
-                                        <i class="fas fa-person-booth"></i>
-                                    </div>
-                                    <div class="feature-box-info">
-                                        <h4 class="mb-2">Recovery Time</h4>
-                                        <p class="mb-4">6 week</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-6">
-                                <div class="feature-box">
-                                    <div class="box-icon">
-                                        <i class="fas fa-calendar-alt"></i>
-                                    </div>
-                                    <div class="feature-box-info">
-                                        <h4 class="mb-2">Reservation</h4>
-                                        <p class="mb-4">1 a day</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-6">
-                                <div class="feature-box">
-                                    <div class="box-icon">
-                                        <i class="fas fa-bed"></i>
-                                    </div>
-                                    <div class="feature-box-info">
-                                        <h4 class="mb-2">Anesthesia</h4>
-                                        <p class="mb-4">general anesthesia</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                        <ul style="list-style: none; margin-left: -30px; font-weight: 500;">
+                            <li>💫 5 Star Hotel</li>
+                            <li>💫 Experienced Surgeon</li>
+                            <li>💫 Nurse Care Hotel</li>
+                        </ul>
                     </div>
                 </div>
             </div>
