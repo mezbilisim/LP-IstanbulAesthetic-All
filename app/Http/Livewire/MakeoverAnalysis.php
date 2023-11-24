@@ -4,6 +4,7 @@ namespace App\Http\Livewire;
 
 use App\Jobs\SendMailJob;
 use App\Traits\Helper;
+use Illuminate\Support\Facades\Log;
 
 class MakeoverAnalysis extends MainLivewire
 {
@@ -89,6 +90,18 @@ class MakeoverAnalysis extends MainLivewire
 
     public function sendForm()
     {
+
+        Log::info(print_r([
+            'name'  => $this->name,
+            'phone' => $this->phone,
+            // 'ip'                => request()->ip(),
+            'formPosition' => $this->data['formPosition'],
+            'adPlatform'   => $this->data['adPlatform'],
+            'adLocale'     => $this->data['adLocale'],
+            'userCountry'  => $this->data['userCountry'],
+        ], true));
+
+
         $this->validate();
 
         /*<==| Mail Notifications Send |==>*/

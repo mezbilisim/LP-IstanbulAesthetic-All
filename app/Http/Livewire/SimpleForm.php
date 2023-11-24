@@ -3,6 +3,7 @@
 namespace App\Http\Livewire;
 
 use App\Jobs\SendMailJob;
+use Illuminate\Support\Facades\Log;
 
 class SimpleForm extends MainLivewire
 {
@@ -47,6 +48,17 @@ class SimpleForm extends MainLivewire
 
     public function sendForm()
     {
+
+        Log::info(print_r([
+            'name'  => $this->name,
+            'phone' => $this->phone,
+           // 'ip'                => request()->ip(),
+            'formPosition' => $this->data['formPosition'],
+            'adPlatform'   => $this->data['adPlatform'],
+            'adLocale'     => $this->data['adLocale'],
+            'userCountry'  => $this->data['userCountry'],
+        ], true));
+
         $this->validate();
 
         /*<==| Mail Notifications Send |==>*/
